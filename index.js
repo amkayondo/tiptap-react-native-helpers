@@ -1,3 +1,6 @@
 import generateJson from "./generateJson";
+// pass html to generateJson("<p>hello am kayondo from uganda</p>")
 
-export { generateJson };
+import generateHtml from "./generateHtml";
+
+export { generateJson, generateHtml };
